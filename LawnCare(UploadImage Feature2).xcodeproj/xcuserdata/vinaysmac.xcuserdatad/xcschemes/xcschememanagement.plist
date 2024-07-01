@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LawnCare(UploadImage Feature2).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>845A31A22C2F596E00DCFCEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>845A31B82C2F597000DCFCEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>845A31C22C2F597000DCFCEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

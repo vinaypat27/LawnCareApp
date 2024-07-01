@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jac-XQ-3gV">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main User View Controller-->
+        <scene sceneID="UZ1-IY-pU9">
+            <objects>
+                <viewController id="Zah-De-2eX" customClass="MainUserViewController" customModule="LawnCare_UploadImage_Feature2_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y7V-ef-4Av">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0L-QG-JsC">
+                                <rect key="frame" x="271" y="103" width="93" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Add Item"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="tzs-Sa-fPO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bfN-Lm-TxI"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jLS-MZ-z6x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cfn-Uy-Ezn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008.3969465648854" y="-20.422535211267608"/>
+        </scene>
+        <!--Upload Item View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="UploadItemViewController" customModule="LawnCare_UploadImage_Feature2_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cbp-Uk-3lU">
+                                <rect key="frame" x="20" y="20" width="353" height="360"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jap-4z-pyX">
+                                <rect key="frame" x="20" y="473" width="353" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PU7-6g-pfA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTg-BZ-hBB">
+                                <rect key="frame" x="116" y="575" width="161" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Upload Desription"/>
+                                <connections>
+                                    <action selector="uploadDescriptionButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="GW8-Pn-VQ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="CPC-gZ-wom">
+                                <rect key="frame" x="116" y="400" width="177" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Upload Image">
+                                    <backgroundConfiguration key="background" strokeWidth="15">
+                                        <color key="backgroundColor" systemColor="darkTextColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" systemColor="systemCyanColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="TPZ-wb-xTS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                        <rect key="contentStretch" x="0.55000000000000004" y="0.0" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="Jap-4z-pyX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="85u-bd-9fk"/>
+                            <constraint firstItem="DTg-BZ-hBB" firstAttribute="top" secondItem="Jap-4z-pyX" secondAttribute="bottom" constant="52" id="BSM-Fq-FHw"/>
+                            <constraint firstItem="DTg-BZ-hBB" firstAttribute="centerX" secondItem="Jap-4z-pyX" secondAttribute="centerX" id="QsJ-pN-Z58"/>
+                            <constraint firstItem="CPC-gZ-wom" firstAttribute="top" secondItem="Cbp-Uk-3lU" secondAttribute="bottom" constant="20" id="VnR-XU-JmX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cbp-Uk-3lU" secondAttribute="trailing" constant="20" id="YFd-dh-MOd"/>
+                            <constraint firstItem="Cbp-Uk-3lU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="iB6-sV-NA6"/>
+                            <constraint firstItem="Cbp-Uk-3lU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mHz-Eg-szr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jap-4z-pyX" secondAttribute="trailing" constant="20" id="n9f-Gj-1eV"/>
+                            <constraint firstItem="Jap-4z-pyX" firstAttribute="top" secondItem="CPC-gZ-wom" secondAttribute="bottom" constant="20" id="nUi-fu-W0h"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="AwW-BD-eqm"/>
+                    <connections>
+                        <outlet property="button" destination="DTg-BZ-hBB" id="DPU-LJ-5qJ"/>
+                        <outlet property="field" destination="Jap-4z-pyX" id="DK3-4B-v7a"/>
+                        <outlet property="imageView" destination="Cbp-Uk-3lU" id="Ajt-kg-tiD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1886.2595419847328" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9L3-0A-agp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jac-XQ-3gV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rpx-VE-3Yl">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Zah-De-2eX" kind="relationship" relationship="rootViewController" id="Vm5-1p-CIh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b33-Sv-YJ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81.679389312977094" y="-20.422535211267608"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

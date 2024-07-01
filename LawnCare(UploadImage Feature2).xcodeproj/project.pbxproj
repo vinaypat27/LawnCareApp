@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845A31A72C2F596E00DCFCEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31A62C2F596E00DCFCEB /* AppDelegate.swift */; };
+		845A31A92C2F596E00DCFCEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31A82C2F596E00DCFCEB /* SceneDelegate.swift */; };
+		845A31AB2C2F596E00DCFCEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31AA2C2F596E00DCFCEB /* ViewController.swift */; };
+		845A31AE2C2F596E00DCFCEB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 845A31AD2C2F596E00DCFCEB /* Base */; };
+		845A31B02C2F597000DCFCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845A31AF2C2F597000DCFCEB /* Assets.xcassets */; };
+		845A31B32C2F597000DCFCEB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 845A31B22C2F597000DCFCEB /* Base */; };
+		845A31BE2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31BD2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_Tests.swift */; };
+		845A31C82C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31C72C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITests.swift */; };
+		845A31CA2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31C92C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift */; };
+		845A31DB2C33510200DCFCEB /* MainUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31DA2C33510200DCFCEB /* MainUserViewController.swift */; };
+		845A31DD2C33513100DCFCEB /* UploadItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31DC2C33513100DCFCEB /* UploadItemViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845A31BA2C2F597000DCFCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845A319B2C2F596E00DCFCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845A31A22C2F596E00DCFCEB;
+			remoteInfo = "LawnCare(UploadImage Feature2)";
+		};
+		845A31C42C2F597000DCFCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845A319B2C2F596E00DCFCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845A31A22C2F596E00DCFCEB;
+			remoteInfo = "LawnCare(UploadImage Feature2)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845A31A32C2F596E00DCFCEB /* LawnCare(UploadImage Feature2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LawnCare(UploadImage Feature2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845A31A62C2F596E00DCFCEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845A31A82C2F596E00DCFCEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		845A31AA2C2F596E00DCFCEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845A31AD2C2F596E00DCFCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845A31AF2C2F597000DCFCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845A31B22C2F597000DCFCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845A31B42C2F597000DCFCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845A31B92C2F597000DCFCEB /* LawnCare(UploadImage Feature2)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LawnCare(UploadImage Feature2)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845A31BD2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawnCare_UploadImage_Feature2_Tests.swift; sourceTree = "<group>"; };
+		845A31C32C2F597000DCFCEB /* LawnCare(UploadImage Feature2)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LawnCare(UploadImage Feature2)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845A31C72C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawnCare_UploadImage_Feature2_UITests.swift; sourceTree = "<group>"; };
+		845A31C92C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		845A31DA2C33510200DCFCEB /* MainUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserViewController.swift; sourceTree = "<group>"; };
+		845A31DC2C33513100DCFCEB /* UploadItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadItemViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845A31A02C2F596E00DCFCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845A31B62C2F597000DCFCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845A31C02C2F597000DCFCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845A319A2C2F596E00DCFCEB = {
+			isa = PBXGroup;
+			children = (
+				845A31A52C2F596E00DCFCEB /* LawnCare(UploadImage Feature2) */,
+				845A31BC2C2F597000DCFCEB /* LawnCare(UploadImage Feature2)Tests */,
+				845A31C62C2F597000DCFCEB /* LawnCare(UploadImage Feature2)UITests */,
+				845A31A42C2F596E00DCFCEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845A31A42C2F596E00DCFCEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845A31A32C2F596E00DCFCEB /* LawnCare(UploadImage Feature2).app */,
+				845A31B92C2F597000DCFCEB /* LawnCare(UploadImage Feature2)Tests.xctest */,
+				845A31C32C2F597000DCFCEB /* LawnCare(UploadImage Feature2)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845A31A52C2F596E00DCFCEB /* LawnCare(UploadImage Feature2) */ = {
+			isa = PBXGroup;
+			children = (
+				845A31A62C2F596E00DCFCEB /* AppDelegate.swift */,
+				845A31A82C2F596E00DCFCEB /* SceneDelegate.swift */,
+				845A31AA2C2F596E00DCFCEB /* ViewController.swift */,
+				845A31AF2C2F597000DCFCEB /* Assets.xcassets */,
+				845A31B12C2F597000DCFCEB /* LaunchScreen.storyboard */,
+				845A31AC2C2F596E00DCFCEB /* Main.storyboard */,
+				845A31DA2C33510200DCFCEB /* MainUserViewController.swift */,
+				845A31DC2C33513100DCFCEB /* UploadItemViewController.swift */,
+				845A31B42C2F597000DCFCEB /* Info.plist */,
+			);
+			path = "LawnCare(UploadImage Feature2)";
+			sourceTree = "<group>";
+		};
+		845A31BC2C2F597000DCFCEB /* LawnCare(UploadImage Feature2)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				845A31BD2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_Tests.swift */,
+			);
+			path = "LawnCare(UploadImage Feature2)Tests";
+			sourceTree = "<group>";
+		};
+		845A31C62C2F597000DCFCEB /* LawnCare(UploadImage Feature2)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				845A31C72C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITests.swift */,
+				845A31C92C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift */,
+			);
+			path = "LawnCare(UploadImage Feature2)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845A31A22C2F596E00DCFCEB /* LawnCare(UploadImage Feature2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845A31CD2C2F597100DCFCEB /* Build configuration list for PBXNativeTarget "LawnCare(UploadImage Feature2)" */;
+			buildPhases = (
+				845A319F2C2F596E00DCFCEB /* Sources */,
+				845A31A02C2F596E00DCFCEB /* Frameworks */,
+				845A31A12C2F596E00DCFCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LawnCare(UploadImage Feature2)";
+			productName = "LawnCare(UploadImage Feature2)";
+			productReference = 845A31A32C2F596E00DCFCEB /* LawnCare(UploadImage Feature2).app */;
+			productType = "com.apple.product-type.application";
+		};
+		845A31B82C2F597000DCFCEB /* LawnCare(UploadImage Feature2)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845A31D02C2F597100DCFCEB /* Build configuration list for PBXNativeTarget "LawnCare(UploadImage Feature2)Tests" */;
+			buildPhases = (
+				845A31B52C2F597000DCFCEB /* Sources */,
+				845A31B62C2F597000DCFCEB /* Frameworks */,
+				845A31B72C2F597000DCFCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845A31BB2C2F597000DCFCEB /* PBXTargetDependency */,
+			);
+			name = "LawnCare(UploadImage Feature2)Tests";
+			productName = "LawnCare(UploadImage Feature2)Tests";
+			productReference = 845A31B92C2F597000DCFCEB /* LawnCare(UploadImage Feature2)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845A31C22C2F597000DCFCEB /* LawnCare(UploadImage Feature2)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845A31D32C2F597100DCFCEB /* Build configuration list for PBXNativeTarget "LawnCare(UploadImage Feature2)UITests" */;
+			buildPhases = (
+				845A31BF2C2F597000DCFCEB /* Sources */,
+				845A31C02C2F597000DCFCEB /* Frameworks */,
+				845A31C12C2F597000DCFCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845A31C52C2F597000DCFCEB /* PBXTargetDependency */,
+			);
+			name = "LawnCare(UploadImage Feature2)UITests";
+			productName = "LawnCare(UploadImage Feature2)UITests";
+			productReference = 845A31C32C2F597000DCFCEB /* LawnCare(UploadImage Feature2)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845A319B2C2F596E00DCFCEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					845A31A22C2F596E00DCFCEB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					845A31B82C2F597000DCFCEB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 845A31A22C2F596E00DCFCEB;
+					};
+					845A31C22C2F597000DCFCEB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 845A31A22C2F596E00DCFCEB;
+					};
+				};
+			};
+			buildConfigurationList = 845A319E2C2F596E00DCFCEB /* Build configuration list for PBXProject "LawnCare(UploadImage Feature2)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845A319A2C2F596E00DCFCEB;
+			productRefGroup = 845A31A42C2F596E00DCFCEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845A31A22C2F596E00DCFCEB /* LawnCare(UploadImage Feature2) */,
+				845A31B82C2F597000DCFCEB /* LawnCare(UploadImage Feature2)Tests */,
+				845A31C22C2F597000DCFCEB /* LawnCare(UploadImage Feature2)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845A31A12C2F596E00DCFCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845A31B02C2F597000DCFCEB /* Assets.xcassets in Resources */,
+				845A31B32C2F597000DCFCEB /* Base in Resources */,
+				845A31AE2C2F596E00DCFCEB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845A31B72C2F597000DCFCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845A31C12C2F597000DCFCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845A319F2C2F596E00DCFCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845A31DD2C33513100DCFCEB /* UploadItemViewController.swift in Sources */,
+				845A31AB2C2F596E00DCFCEB /* ViewController.swift in Sources */,
+				845A31A72C2F596E00DCFCEB /* AppDelegate.swift in Sources */,
+				845A31DB2C33510200DCFCEB /* MainUserViewController.swift in Sources */,
+				845A31A92C2F596E00DCFCEB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845A31B52C2F597000DCFCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845A31BE2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845A31BF2C2F597000DCFCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845A31CA2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift in Sources */,
+				845A31C82C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845A31BB2C2F597000DCFCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845A31A22C2F596E00DCFCEB /* LawnCare(UploadImage Feature2) */;
+			targetProxy = 845A31BA2C2F597000DCFCEB /* PBXContainerItemProxy */;
+		};
+		845A31C52C2F597000DCFCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845A31A22C2F596E00DCFCEB /* LawnCare(UploadImage Feature2) */;
+			targetProxy = 845A31C42C2F597000DCFCEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		845A31AC2C2F596E00DCFCEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845A31AD2C2F596E00DCFCEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845A31B12C2F597000DCFCEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845A31B22C2F597000DCFCEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845A31CB2C2F597100DCFCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845A31CC2C2F597100DCFCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845A31CE2C2F597100DCFCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5V7GLUD2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LawnCare(UploadImage Feature2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinayPattanashettar.LawnCare-UploadImage-Feature2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845A31CF2C2F597100DCFCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5V7GLUD2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LawnCare(UploadImage Feature2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinayPattanashettar.LawnCare-UploadImage-Feature2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		845A31D12C2F597100DCFCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5V7GLUD2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinayPattanashettar.LawnCare-UploadImage-Feature2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LawnCare(UploadImage Feature2).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LawnCare(UploadImage Feature2)";
+			};
+			name = Debug;
+		};
+		845A31D22C2F597100DCFCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5V7GLUD2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinayPattanashettar.LawnCare-UploadImage-Feature2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LawnCare(UploadImage Feature2).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LawnCare(UploadImage Feature2)";
+			};
+			name = Release;
+		};
+		845A31D42C2F597100DCFCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5V7GLUD2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinayPattanashettar.LawnCare-UploadImage-Feature2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LawnCare(UploadImage Feature2)";
+			};
+			name = Debug;
+		};
+		845A31D52C2F597100DCFCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5V7GLUD2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinayPattanashettar.LawnCare-UploadImage-Feature2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LawnCare(UploadImage Feature2)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845A319E2C2F596E00DCFCEB /* Build configuration list for PBXProject "LawnCare(UploadImage Feature2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845A31CB2C2F597100DCFCEB /* Debug */,
+				845A31CC2C2F597100DCFCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845A31CD2C2F597100DCFCEB /* Build configuration list for PBXNativeTarget "LawnCare(UploadImage Feature2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845A31CE2C2F597100DCFCEB /* Debug */,
+				845A31CF2C2F597100DCFCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845A31D02C2F597100DCFCEB /* Build configuration list for PBXNativeTarget "LawnCare(UploadImage Feature2)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845A31D12C2F597100DCFCEB /* Debug */,
+				845A31D22C2F597100DCFCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845A31D32C2F597100DCFCEB /* Build configuration list for PBXNativeTarget "LawnCare(UploadImage Feature2)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845A31D42C2F597100DCFCEB /* Debug */,
+				845A31D52C2F597100DCFCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845A319B2C2F596E00DCFCEB /* Project object */;
+}
