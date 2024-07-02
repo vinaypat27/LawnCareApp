@@ -18,6 +18,10 @@
 		845A31CA2C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31C92C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift */; };
 		845A31DB2C33510200DCFCEB /* MainUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31DA2C33510200DCFCEB /* MainUserViewController.swift */; };
 		845A31DD2C33513100DCFCEB /* UploadItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A31DC2C33513100DCFCEB /* UploadItemViewController.swift */; };
+		EF692C362C336F22000E4767 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF692C352C336F22000E4767 /* LoginViewController.swift */; };
+		EF692C382C3370FF000E4767 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF692C372C3370FE000E4767 /* RegisterViewController.swift */; };
+		EF692C3A2C33738F000E4767 /* WorkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF692C392C33738F000E4767 /* WorkerViewController.swift */; };
+		EF692C3C2C3373A9000E4767 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF692C3B2C3373A9000E4767 /* CustomerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		845A31C92C2F597000DCFCEB /* LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawnCare_UploadImage_Feature2_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		845A31DA2C33510200DCFCEB /* MainUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserViewController.swift; sourceTree = "<group>"; };
 		845A31DC2C33513100DCFCEB /* UploadItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadItemViewController.swift; sourceTree = "<group>"; };
+		EF692C352C336F22000E4767 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF692C372C3370FE000E4767 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EF692C392C33738F000E4767 /* WorkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerViewController.swift; sourceTree = "<group>"; };
+		EF692C3B2C3373A9000E4767 /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +117,12 @@
 				845A31AF2C2F597000DCFCEB /* Assets.xcassets */,
 				845A31B12C2F597000DCFCEB /* LaunchScreen.storyboard */,
 				845A31AC2C2F596E00DCFCEB /* Main.storyboard */,
+				EF692C392C33738F000E4767 /* WorkerViewController.swift */,
+				EF692C3B2C3373A9000E4767 /* CustomerViewController.swift */,
+				EF692C352C336F22000E4767 /* LoginViewController.swift */,
 				845A31DA2C33510200DCFCEB /* MainUserViewController.swift */,
 				845A31DC2C33513100DCFCEB /* UploadItemViewController.swift */,
+				EF692C372C3370FE000E4767 /* RegisterViewController.swift */,
 				845A31B42C2F597000DCFCEB /* Info.plist */,
 			);
 			path = "LawnCare(UploadImage Feature2)";
@@ -264,10 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF692C362C336F22000E4767 /* LoginViewController.swift in Sources */,
 				845A31DD2C33513100DCFCEB /* UploadItemViewController.swift in Sources */,
+				EF692C382C3370FF000E4767 /* RegisterViewController.swift in Sources */,
+				EF692C3C2C3373A9000E4767 /* CustomerViewController.swift in Sources */,
 				845A31AB2C2F596E00DCFCEB /* ViewController.swift in Sources */,
 				845A31A72C2F596E00DCFCEB /* AppDelegate.swift in Sources */,
 				845A31DB2C33510200DCFCEB /* MainUserViewController.swift in Sources */,
+				EF692C3A2C33738F000E4767 /* WorkerViewController.swift in Sources */,
 				845A31A92C2F596E00DCFCEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
